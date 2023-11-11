@@ -18,12 +18,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Kent Barbey
+title: Personnal website
 email: kent.barbey@epfl.ch
 description: >- # this means to ignore newlines until "baseurl:"
-  I am a master student in Astrophysics at EPFL. I am currently working on my master thesis
-  at the Geneva observatory in Richard Anderson's group on the topic of novel periodogram
-  methods using distance correlation.
+  This is my personnal website. I will post here some of my projects and my CV.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  kbarbey

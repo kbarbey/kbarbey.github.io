@@ -10,7 +10,9 @@ them enough for their work.
 
 # All ascents by region
 
-<iframe src="/bikeclimbsbyregion.html" width="100%" height="500" style="border:none;"></iframe>
+<iframe src="/bikeclimbsbyregion.html" width="100%" height="300" style="border:none;"></iframe>
+
+![Subdirectory Image](/images/switzerland_terrain.jpg)
 
 ## Statistics
 
