@@ -53,17 +53,61 @@ Total: 85/244
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
-    /* Optional styling for the progress bar */
+    /* Optional styling for the progress bar container */
+    .progress-container {
+      width: 100%;
+      height: 25px;
+      position: relative;
+    }
+
     progress {
       width: 100%;
-      height: 20px;
+      height: 100%;
+      transition: all 0.2s ease-out;
+        -webkit-appearance: none;
+      background-image:
+	    -webkit-linear-gradient(-45deg,transparent 33%, rgba(0, 0, 0, .1) 33%,rgba(0,0, 0, .1) 66%, transparent 66%),
+	    -webkit-linear-gradient(top,rgba(255, 255, 255, .25),rgba(0, 0, 0, .25)),
+	    -webkit-linear-gradient(left, #09c, #f44);
+
+    border-radius: 2px; 
+    background-size: 35px 20px, 100% 100%, 100% 100%;
+    }
+
+    .percentage {
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      line-height: 30px;
     }
   </style>
 </head>
 <body>
 
 <!-- Example Progress Bar -->
-<progress value="85" max="244"></progress>
+<div class="progress-container">
+  <progress id="myProgressBar" value="85" max="244"></progress>
+  <div id="percentageText" class="percentage"></div>
+</div>
+
+<script>
+  // Get the progress bar and percentage text elements
+  var progressBar = document.getElementById('myProgressBar');
+  var percentageText = document.getElementById('percentageText');
+
+  // Update the percentage text based on the current value and max attributes
+  function updatePercentage() {
+    var percentage = Math.round((progressBar.value / progressBar.max) * 100);
+    percentageText.textContent = percentage + '%';
+  }
+
+  // Call the updatePercentage function when the value of the progress bar changes
+  progressBar.addEventListener('input', updatePercentage);
+
+  // Initial call to set the initial percentage
+  updatePercentage();
+</script>
 
 </body>
 </html>
