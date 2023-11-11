@@ -7,7 +7,7 @@ layout: home
 
 <!-- In big  but not a title-->
 
-Welcome to my personal website!
+**Welcome to my personal website!**
 
 Ciao! I'm Kent, and this is my personal website where I share my interests and adventures. Explore the pages linked below to learn more.
 

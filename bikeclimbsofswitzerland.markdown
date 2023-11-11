@@ -12,7 +12,9 @@ them enough for their work.
 
 <iframe src="/bikeclimbsbyregion.html" width="100%" height="300" style="border:none;"></iframe>
 
-![Subdirectory Image](/images/switzerland_terrain.jpg)
+# Heatmap of ascents
+
+![Subdirectory Image](/images/output.gif)
 
 ## Statistics
 
@@ -26,25 +28,25 @@ them enough for their work.
 
 4. Mont-Blanc: 5/5
 
-5. Chablais: 
+5. Chablais: 5/12
 
-6. Massif de l'Ortles:
+6. Massif de l'Ortles: 2/2
 
-7. Alpes Uranaise:
+7. Alpes Uranaises: 0/17
 
-8. Alpes Glaronaises:
+8. Alpes Glaronaises: 0/5
 
-9. Alpes Lépontines:
+9. Alpes Lépontines: 2/24
 
-10. Alpes Rhétiques:
+10. Alpes Rhétiques: 3/14
 
-11. Rätikon:
+11. Rätikon: 0/3
 
-12. Chaîne de la Bernina:
+12. Chaîne de la Bernina: 1/4
 
-13. Saint-Gothard:
+13. Saint-Gothard: 5/7
 
-14. Autres:
+14. Autres: 0/2
 
 Total: 85/244
 
@@ -111,3 +113,13 @@ Total: 85/244
 
 </body>
 </html>
+
+Hours spent on the bike: 0
+
+Total kilometers:
+
+Total elevation gain:
+
+Ascents with road bike:
+
+Ascents with blue bike:
