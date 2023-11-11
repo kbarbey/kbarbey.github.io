@@ -4,9 +4,12 @@
 
 layout: home
 ---
-## Welcome to My Personal Website
 
-Hello there! I'm Kent, and this is my personal website where I share my interests and adventures. Explore the pages linked below to learn more.
+<!-- In big  but not a title-->
+
+Welcome to my personal website!
+
+Ciao! I'm Kent, and this is my personal website where I share my interests and adventures. Explore the pages linked below to learn more.
 
 <img src="/images/front_page.jpeg" alt="Image 1" style="width:1000px; height:300px; object-fit:cover;">
 
