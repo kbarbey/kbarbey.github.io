@@ -26,6 +26,7 @@ See my current project: [Swiss Bicycle Ascents](/swiss-bicycle-ascents/)
 
 ### Climbing
 *Stay tight ! Don't forget to breathe Dude !*, Nalle Hukkaitaival
+
 *C'est pas un back mais ça va.*, Gaspard(a freakishly strong climber)
 
 [Explore Climbing](/climbing)
