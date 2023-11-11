@@ -28,7 +28,7 @@ github_username:  kbarbey
 
 # Build settings
 # theme: jekyll-theme-basically-basic
-theme: jekyll-minima
+theme: minima
 plugins:
   - jekyll-feed
 
