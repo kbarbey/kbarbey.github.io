@@ -4,7 +4,7 @@
 
 layout: home
 ---
-# Welcome to My Personal Website
+## Welcome to My Personal Website
 
 Hello there! I'm Kent, and this is my personal website where I share my interests and adventures. Explore the pages linked below to learn more.
 
